@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectTarget>
+    <TargetProject>f24d4bf9-e004-464a-b388-c4033c1f0ad5</TargetProject>
+    <FriendlyName>StopFlow</FriendlyName>
+  </ProjectTarget>
+  <Reports>
+    <Report>
+      <Filename>C:\Users\Koan\AppData\Local\Temp\StopFlow_20140401(1).vsp</Filename>
+    </Report>
+  </Reports>
+</ProfilingTarget>
