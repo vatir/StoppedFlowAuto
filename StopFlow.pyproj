@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f24d4bf9-e004-464a-b388-c4033c1f0ad5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SeqProc.py</StartupFile>
+    <StartupFile>SeqCatControl.py</StartupFile>
     <SearchPath>.</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -32,9 +32,24 @@
     <Compile Include="Common\CLIArgParse.py" />
     <Compile Include="Common\Helpers.py" />
     <Compile Include="Common\__init__.py" />
+    <Compile Include="Control\ConfigOptions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Control\Methods.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Control\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataEval.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DataImport.py" />
     <Compile Include="Display.py" />
     <Compile Include="DataRequest.py" />
+    <Compile Include="SeqCatControl.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="SeqCatToCSV.py" />
     <Compile Include="SeqProc.py" />
     <Compile Include="GainProc.py" />
@@ -44,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Common\" />
+    <Folder Include="Control\" />
     <Folder Include="TempData\" />
   </ItemGroup>
   <ItemGroup>
