@@ -1,4 +1,4 @@
-import ConfigOptions
+from . import ConfigOptions
 from pywinauto.application import Application
 import time
 
