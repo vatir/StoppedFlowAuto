@@ -1,3 +1,3 @@
 # StopFlowAuto
 
-Stop Flow Automation Project
+Stopped-Flow Automation Project
